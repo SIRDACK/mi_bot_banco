@@ -2,8 +2,3 @@ selenium
 pandas
 openpyxl
 pyTelegramBotAPI==4.14.0
-#!/bin/bash
-python bot_banco.py
-_pycache_/
-*.pyc
-archivos/mensajes.txt
