@@ -37,5 +37,5 @@ def run():
             print(f"⚠ Error en polling: {e}. Reintentando en 5s…")
             time.sleep(5)
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     run()
