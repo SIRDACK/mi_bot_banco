@@ -10,7 +10,7 @@ if not BOT_TOKEN:
 bot = telebot.TeleBot(BOT_TOKEN)
 
 # --- Rutas seguras para carpeta 'archivos' ---
-BASE_DIR = os.path.dirname(os.path.abspath(_file_))
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 ARCHIVOS_DIR = os.path.join(BASE_DIR, "archivos")
 os.makedirs(ARCHIVOS_DIR, exist_ok=True)
 MENSAJES_PATH = os.path.join(ARCHIVOS_DIR, "mensajes.txt")
